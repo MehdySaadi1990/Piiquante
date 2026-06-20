@@ -1,15 +1,12 @@
 {
   "name": "hot-takes",
   "version": "0.0.0",
-  "homepage": "index.html",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
